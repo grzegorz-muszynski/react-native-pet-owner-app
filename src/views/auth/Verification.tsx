@@ -124,7 +124,7 @@ const Verification: FC<Props> = ({route}) => {
             />
           );
         })}
-      </View>
+      </View> 
 
       <AppButton busy={submitting} title="Submit" onPress={handleSubmit} />
 
